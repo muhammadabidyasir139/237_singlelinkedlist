@@ -115,7 +115,9 @@ void searchData() {
                 cout << "NIM: " << currentNode->noMhs << ", Nama" << currentNode->name << endl;
                     return;
             }
+            currentNode = currentNode->next;
         }
+        cout << "Data tidak ditemukan" << endl;
     }
 }
 
