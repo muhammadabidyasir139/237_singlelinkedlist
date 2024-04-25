@@ -132,8 +132,16 @@ int main () {
             cout << "5. keluar" << endl;
             cout << "pilihan" << endl;
             cin >> pilihan;
+            switch (pilihan) {
+                case 1:
+                    addNode();
+                    cout << "Data Berhasil Ditambahkan " << endl;
+                    system("pause");
+                    system("cls");
+                    break;
+            }
         }
-    }
+    } while (pilihan != 5);
 }
 
 
