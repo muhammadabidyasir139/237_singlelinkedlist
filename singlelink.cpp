@@ -30,4 +30,7 @@ if (START == NULL || nim <= START->noMhs) {
     START = nodeBaru;
 }
 
+Node* previous = START;
+Node* current = START;
+
 }
